@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2023-02-20" view-index="0" gantt-divider-location="947" resource-divider-location="300" version="2.8.11" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:2" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="547" order="0"/>
+        <field id="tpd4" name="Date de début" width="162" order="1"/>
+        <field id="tpd5" name="Date de fin" width="234" order="2"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="210" order="0"/>
+        <field id="1" name="Rôle par défaut" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Condamner porte maison et décondamner porte d'entrée" color="#8cb6ce" meeting="false" start="2023-07-01" duration="1" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true"/>
+        <task id="5" name="Emprunter et acheter les outils nécéssaires + peinture et enduit" color="#8cb6ce" meeting="false" start="2023-07-01" duration="1" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="Décaper le sol et la peinture" color="#8cb6ce" meeting="false" start="2023-07-02" duration="2" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="Lessiver le plafond" color="#8cb6ce" meeting="false" start="2023-07-02" duration="2" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" name="Enduire les murs" color="#8cb6ce" meeting="false" start="2023-07-04" duration="1" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="19" name="Peindre les murs et le plafond" color="#8cb6ce" meeting="false" start="2023-07-05" duration="4" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="20" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="20" name="Acheter éclairage, prises, tableau electrique, fenêtre et les poser" color="#8cb6ce" meeting="false" start="2023-07-09" duration="1" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="21" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="21" name="Louer une camionnette" color="#8cb6ce" meeting="false" start="2023-07-10" duration="1" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="22" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="22" name="Acheter meubles salle d'eau, parquet, carrelage" color="#8cb6ce" meeting="false" start="2023-07-11" duration="1" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="23" type="2" difference="0" hardness="Strong"/>
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="23" name="Acheter meubles cuisines, plan de travail, bar" color="#8cb6ce" meeting="false" start="2023-07-12" duration="1" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="24" type="2" difference="0" hardness="Strong"/>
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="24" name="Acheter planches (armoires, bureau) et monter armoires et bureau" color="#8cb6ce" meeting="false" start="2023-07-13" duration="3" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="25" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="25" name="Acheter lit, canapé, chaises de bar, décoration et électroménagers" color="#8cb6ce" meeting="false" start="2023-07-16" duration="2" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="26" type="2" difference="0" hardness="Strong"/>
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="26" name="Rendre la camionnette" color="#8cb6ce" meeting="false" start="2023-07-18" duration="1" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true"/>
+        <task id="67" name="Stage" color="#8cb6ce" meeting="false" start="2023-07-17" duration="19" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true"/>
+        <task id="80" name="Vacances" color="#8cb6ce" meeting="false" start="2023-08-05" duration="8" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="27" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="27" name="Poser parquet et carrelage" color="#8cb6ce" meeting="false" start="2023-08-13" duration="3" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+            <depend id="29" type="2" difference="0" hardness="Strong"/>
+            <depend id="30" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="28" name="Poser lavabo et douche" color="#8cb6ce" meeting="false" start="2023-08-16" duration="2" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="29" name="Poser meubles cuisines, plan de travail, bar" color="#8cb6ce" meeting="false" start="2023-08-16" duration="5" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="30" name="Monter et placer lit, canapé, chaises de bar, décoration et électroménagers" color="#8cb6ce" meeting="false" start="2023-08-16" duration="5" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true">
+            <depend id="31" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="31" name="Ménage" color="#8cb6ce" meeting="false" start="2023-08-21" duration="1" complete="0" thirdDate="2023-02-20" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
